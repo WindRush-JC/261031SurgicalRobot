@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller
+build/
+dist/
+refs/
+*.exe
+
+# Local configuration
+/config/config.local.json
+
+# Generated output
+output/
+
+# Local helper tools
+/tools/
+
+# IDE / AI tools
+.vscode/
+.claude/
+.agents/
+.codex/
+.reasonix/
+
+# Temporary files
+*.tmp
+*.log

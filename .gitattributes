@@ -1,0 +1,15 @@
+# .gitattributes —— 只影响 git archive，不影响仓库本身
+
+# 内部工具，不对外
+tools/export_public.bat      export-ignore
+tools/Snapshot/              export-ignore
+
+# 个人笔记（按需保留或删除此行）
+docs/Designments.md                export-ignore
+docs/Records.md                export-ignore
+docs/Todo.md                export-ignore
+docs/Understanding.md                export-ignore
+
+# 若 u_lapar_control.py 是厂商 SDK / 不可公开，取消下面两行注释
+src/u_lapar_control.py     export-ignore
+refs/u_lapar_control.py    export-ignore
